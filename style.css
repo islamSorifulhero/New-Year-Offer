@@ -1,19 +1,33 @@
-header img{
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.621)), url(images/Banner\ Image.png);
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1170px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* header img{
     width: 1040px;
     height: 430px;
     margin: 50px 140px 120px;
     display: block;
-    background: linear-gradient(#000000);
-}
+} */
 .new-year-title{
     position: relative;
     text-align: center;
-    margin-top: -442px;
+    /* margin-top: -442px; */
     color: #FFFFFF;
     font-size: 36px;
 }
 .new-year-photo{
-    margin-top: 180px;
+    margin-top: 70px;
 }
 .off-day{
     text-align: center;
@@ -36,4 +50,42 @@ header img{
     height: 500px;
     display: block;
     margin: auto;
+}
+.new-year-party{
+    /* background-image: url(images/Vectorrr.png); */
+    background: linear-gradient(rgba(3, 1, 1, 0.562)), url(images/Vectorrr.png);
+    background-position: 0, bottom right;
+    width: 1040px;
+    height: 430px;
+    margin: 50px 140px 120px;
+    display: block;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 10px;
+}
+.new-year-party h3{
+    font-size: 31px;
+    margin-left: 126px;
+    margin-top: 200px;
+}
+.new-year-party p{
+    font-size: 9px;
+    margin-left: 126px;
+    margin-top: -20px;
+}
+.new-year-party h6{
+    margin-left: 126px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.party-2024{
+    margin-top: -308px;
+    margin-left: 590px;
+    width: 230px;
+    height: 335px;
+}
+.new-year-place{
+    margin-top: 500px;
+    width: 1040px;
+    height: 400px;
 }
