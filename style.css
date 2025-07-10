@@ -85,7 +85,43 @@ header{
     height: 335px;
 }
 .new-year-place{
-    margin-top: 500px;
+    margin-top: 520px;
     width: 1040px;
     height: 400px;
+    display: block;
+    margin-left: 140px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    background: linear-gradient(#ff00000c);
+}
+.Place{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 440px;
+}
+.date{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 408px;
+}
+.time{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 389px;
+}
+.join-btn{
+    position: absolute;
+    margin-top: 239px;
+    margin-left: -71px;
+    background-color: #FF0000;
+    border: none;
+    color: #FFFFFF;
+    width: 121px;
+    height: 41px;
+    border-radius: 10px;
+}
+.color-item{
+    color: #FF0000;
+
 }
