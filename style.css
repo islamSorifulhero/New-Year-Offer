@@ -1,10 +1,12 @@
 header{
     background: linear-gradient(rgba(0, 0, 0, 0.621)), url(images/Banner\ Image.png);
-    height: 500px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1170px;
+    width: 100%;
+    height: auto;
+    padding-top: 177px;
+    padding-bottom: 177px;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
@@ -13,32 +15,22 @@ header{
     justify-content: center;
     text-align: center;
 }
-/* header img{
-    width: 1040px;
-    height: 430px;
-    margin: 50px 140px 120px;
-    display: block;
-} */
 .new-year-title{
     position: relative;
     text-align: center;
-    /* margin-top: -442px; */
     color: #FFFFFF;
-    font-size: 36px;
-}
-.new-year-photo{
-    margin-top: 70px;
+    font-size: 2.25rem;
 }
 .off-day{
     text-align: center;
     color: #FF0000;
-    font-size: 44px;
+    font-size: 2.75rem;
     font-weight: bold;
  }
 .holiday{
     text-align: center;
     color: #FF0000;
-    font-size: 12px;
+    font-size: 1.33rem;
     margin-top: -15px;
 }
 .categori{
@@ -47,13 +39,12 @@ header{
     margin-bottom: 28px;
 }
 .new-year-photo img{
-    width: 620px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     display: block;
     margin: auto;
 }
 .new-year-party{
-    /* background-image: url(images/Vectorrr.png); */
     background: linear-gradient(rgba(3, 1, 1, 0.562)), url(images/Vectorrr.png);
     background-position: 0, bottom right;
     width: 1040px;
@@ -165,4 +156,10 @@ header{
 .new-right-offer img{
     width: 65px;
     height: 65px;
+}
+
+
+/* hide  */
+.hide{
+    display: none;
 }
