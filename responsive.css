@@ -2,6 +2,9 @@
     .rectangle-section{
         flex-direction: column;
     }
+    .footer-icons{
+        padding: 30px 300px;
+    }
 }
 @media screen and (max-width: 992px) {
     .main-offer-section{
@@ -13,6 +16,15 @@
     .new-right-offer{
         text-align: center;
         align-items: center;
+    }
+    .footer-section-head{
+        flex-direction: column;
+    }
+    .footer-icons{
+        padding: 50px 30px;
+    }
+    .footer-end{
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 768px) {
