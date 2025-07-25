@@ -31,4 +31,12 @@
     .new-year-place{
         font-size: 1rem;
     }
+    .email-file input{
+        border-radius: 50px;
+    }
+    .email-file button{
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-top: 18px;
+    }
 }
