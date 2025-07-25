@@ -46,45 +46,45 @@ header{
 }
 .new-year-party{
     background: linear-gradient(rgba(3, 1, 1, 0.562)), url(images/Vectorrr.png);
-    background-position: 0, bottom right;
-    width: 1040px;
-    height: 430px;
-    margin: 50px 140px 120px;
-    display: block;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    gap: 38px;
     color: #FFFFFF;
-    position: absolute;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
 }
 .new-year-party h3{
-    font-size: 31px;
-    margin-left: 126px;
-    margin-top: 200px;
+    font-size: 1.9rem;
+    padding: 30px;
 }
 .new-year-party p{
-    font-size: 9px;
-    margin-left: 126px;
-    margin-top: -20px;
+    font-size: .56rem;
+    padding-left: 30px;
 }
 .new-year-party h6{
-    margin-left: 126px;
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: bold;
+    padding-left: 30px;
 }
 .party-2024{
-    margin-top: -308px;
-    margin-left: 590px;
-    width: 230px;
-    height: 335px;
+    padding: 25px;
 }
 .new-year-place{
-    margin-top: 520px;
-    width: 1040px;
-    height: 400px;
+    margin-top: 570px;
+    /* width: 1040px;
+    height: 400px; */
+    width: 100%;
+    height: auto;
     display: block;
-    margin-left: 140px;
+    /* margin-left: 140px; */
     border-radius: 10px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     background: linear-gradient(#ff00000c);
 }
 .Place{
