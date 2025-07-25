@@ -171,7 +171,32 @@ header{
     height: auto;
     align-items: center;
 }
-
+.box-description h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FF0000;
+}
+.box-description h1{
+    font-size: 3rem;
+    margin: 16px auto;
+    color: #070211;
+}
+.box-description p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+}
+.box-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.box-img img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
