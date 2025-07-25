@@ -1,7 +1,14 @@
 @media screen and (max-width: 992px) {
-    /* .new-year-party h3, p, h6, img {
-        display: none;
-    } */
+    .main-offer-section{
+        flex-direction: column;
+    }
+    .new-left-offer{
+        text-align: center;
+    }
+    .new-right-offer{
+        text-align: center;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 768px) {
     .new-year-party{
