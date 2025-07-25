@@ -157,6 +157,23 @@ header{
     font-weight: 500;
     color: rgba(7, 2, 17, 0.6);
 }
+.rectangle-section{
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    margin: 65px auto;
+    justify-content: center;
+}
+.rectangle-section img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+
+
 
 /* hide  */
 .hide{
